@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Slider Album Project</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="slide">
+
+                <div class="item"
+                    style="background-image: url(https://i.ibb.co/qCkd9jS/img1.jpg);">
+                    <div class="content">
+                        <div class="name">Switzerland</div>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://i.ibb.co/jrRb11q/img2.jpg);">
+                    <div class="content">
+                        <div class="name">Finland</div>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://i.ibb.co/NSwVv8D/img3.jpg);">
+                    <div class="content">
+                        <div class="name">Iceland</div>
+                    </div>
+                </div>
+                <div class="item"
+                    style="background-image: url(https://i.ibb.co/Bq4Q0M8/img4.jpg);">
+                    <div class="content">
+                        <div class="name">Australia</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+            <div class="button">
+                <button id="prev-button" class="prev"><i class="fa-solid fa-angles-left"></i></button>
+                <div id="count-display">0</div>
+                <button id="next-button" class="next"><i class="fa-solid fa-angles-right"></i></button>
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
